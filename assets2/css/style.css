@@ -1858,3 +1858,14 @@ section {
   font-size: 13px;
   color: #ddd;
 }
+
+
+/* BOX BORDER */
+
+
+.box {
+  width: auto;
+  padding: auto;
+  border: 4px solid rgb(197, 131, 197);
+  margin: 0;
+}
