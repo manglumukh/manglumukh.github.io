@@ -97,7 +97,7 @@ div#preloader {
 #preloader:before {
   content: "";
   position: fixed;
-  top: calc(30% - 30px);
+  top: calc(20% - 30px);
   left: calc(50% - 30px);
   border: 8px solid #f2f2f2;
   border-top: 8px solid #18d26e;
