@@ -82,7 +82,7 @@ div#preloader {
   background: #ffffff url("../loader.png") no-repeat center center;
 }
 
-/*
+
 #preloader {
   position: fixed;
   top: 0;
@@ -97,15 +97,16 @@ div#preloader {
 #preloader:before {
   content: "";
   position: fixed;
-  top: calc(50% - 30px);
+  top: calc(30% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #f2f2f2;
-  border-top: 6px solid #18d26e;
+  border: 8px solid #f2f2f2;
+  border-top: 8px solid #18d26e;
+  border-bottom: 8px solid #18d26e;
   border-radius: 50%;
   width: 60px;
   height: 60px;
-  -webkit-animation: animate-preloader 1s linear infinite;
-  animation: animate-preloader 1s linear infinite;
+  -webkit-animation: animate-preloader 1.5s linear infinite;
+  animation: animate-preloader 1.5s linear infinite;
 }
 
 @-webkit-keyframes animate-preloader {
@@ -125,7 +126,7 @@ div#preloader {
     transform: rotate(360deg);
   }
 }
-*/
+
 
 
 /*--------------------------------------------------------------
