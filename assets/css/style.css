@@ -69,10 +69,8 @@ div#preloader {
   width: 100%;
   height: 100%;
   overflow: visible;
-  background: #ffffff url("../loader.png") no-repeat center center;
+  background: #ffffff url("../loader.gif") no-repeat center center;
 }
-
-
 
 
 #preloader {
