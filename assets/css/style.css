@@ -89,12 +89,12 @@ div#preloader {
   position: fixed;
   top: calc(20% - 30px);
   left: calc(50% - 30px);
-  border: 8px solid #cc1616;
+  border: 7px solid #cc1616;
   border-top-color: #efefef;
   border-bottom-color: #efefef;;
   border-radius: 50%;
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   
   -webkit-animation: animate-preloader 1.5s linear infinite;
   animation: animate-preloader 1.5s linear infinite;
