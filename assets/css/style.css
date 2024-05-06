@@ -72,7 +72,7 @@ div#preloader {
   background: #ffffff url("../loader.gif") no-repeat center center;
 }
 
-
+/*
 #preloader {
   position: fixed;
   top: 0;
@@ -83,6 +83,7 @@ div#preloader {
   overflow: hidden;
   background: #fff;
 }
+
 
 #preloader:before {
   content: "";
@@ -99,7 +100,7 @@ div#preloader {
   -webkit-animation: animate-preloader 1.5s linear infinite;
   animation: animate-preloader 1.5s linear infinite;
 }
-
+*/
 @-webkit-keyframes animate-preloader {
   0% {
     transform: rotate(0deg);
